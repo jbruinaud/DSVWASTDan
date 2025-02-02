@@ -2,8 +2,6 @@
 
 FROM alpine:latest
 
-USER tomcat
-
 RUN apk --no-cache add git python3 py-lxml \
     && rm -rf /var/cache/apk/*
 
