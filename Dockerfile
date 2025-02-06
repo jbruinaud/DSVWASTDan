@@ -5,7 +5,7 @@ FROM alpine:latest
 RUN apk --no-cache add git python3 py-lxml \
     && rm -rf /var/cache/apk/*
 
-USER dsvw
+
 
 WORKDIR /
 RUN git clone https://github.com/stamparm/DSVW
